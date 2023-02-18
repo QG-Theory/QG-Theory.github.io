@@ -11,7 +11,7 @@ body{
 .button{
     text-align: center;
     font-family:sans-serif;
-    background-color: #3d50b8;
+    background-color: black;
     border-radius: 4px;
     border: none;
 }
@@ -25,7 +25,7 @@ body{
 }
 
 .top-nav-bar{
-    background-color: #5A6BC8;
+    background-color: black;
     text-align: center;
     padding: 0.4em;
     transition: 0.4s;
@@ -74,23 +74,22 @@ body{
 }
 
 .top-nav-bar a:hover{
-    background-color: #E9EAE0;
-    color: black;
+    background-color: #4e59d0;
+    color: #E9EAE0;
     text-decoration: none;
     -webkit-text-stroke-width: 0px;
     border-radius: 10px;
 }
 
 .top-nav-bar .active{
-    background-color: #3d50b8;
-    box-shadow: inset 0px 4px #EFCFD4;
+    background-color: #4e59d0;
+    box-shadow: inset 0px 4px #eab92e;
     border-radius: 10px;
 }
 
 .bodyhome{
-    background: linear-gradient(45deg, #FFC7D7, #EFCFD4, #F5DCE0);
+    background-color: #eab92e;
     background-size: 400% 400%;
-    animation: gradient 8s ease infinite;
     background-attachment:fixed;
     height:100%;
 }
@@ -125,7 +124,7 @@ body{
     text-align: center;
     display: grid;
     align-content: space-evenly;
-    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto;
 }
 
 span{
@@ -147,26 +146,6 @@ span:after{
     content: " ]";
     color: black;
 }
-
-.starbody{
-    padding-top: 7%;
-    padding-left: 10%;
-    padding-right: 5%;
-    background-image: url('rabbit.png');
-    align-items: center;
-    justify-content: center;
-}
-
-.starmain{
-    background: rgba(61,80,184,.65);
-    border-radius: 10px;
-    border-spacing: 10%;
-    padding-left: 1%;
-    padding-right: 1%;
-    border-style:solid;
-    border-color: rgba(61,80,184);
-}
-
 
 @keyframes gradient {
     0% {

@@ -127,6 +127,14 @@ body{
     grid-template-columns: auto auto auto;
 }
 
+.socialcontainers1{
+    text-decoration: none;
+    text-align: center;
+    display: grid;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+}
+
 span{
     font-family:sans-serif;
     display: block;
@@ -145,16 +153,4 @@ span:before{
 span:after{
     content: " ]";
     color: black;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
 }

@@ -40,7 +40,7 @@ body{
     margin-top: 0;
     margin-bottom: 0;
     height: auto;
-    
+    z-index: 1000;
 }
 
 .top-nav-bar ul{
@@ -50,12 +50,14 @@ body{
     margin: 0;
     text-decoration: none;
     border-radius: 10px;
+    z-index: 1000;
 }
 
 .top-nav-bar li{
     display: inline-block;
     text-decoration: none;
     border-radius: 10px;
+    z-index: 1000;
 }
 
 .top-nav-bar a{
@@ -66,6 +68,7 @@ body{
     width: 150px;
     padding: 15px;
     color: #E9EAE0;
+    z-index: 1000;
 }
 
 .top-nav-bar a:visited{
@@ -91,7 +94,8 @@ body{
     background-color: #eab92e;
     background-size: 400% 400%;
     background-attachment:fixed;
-    height:100%;
+    height: 100%;
+    z-index: 1;
 }
 
 .imagemain{
@@ -107,6 +111,7 @@ body{
     background: none;
     align-items: center;
     justify-content: center;
+    z-index: 1;
 }
 
 .allmain{

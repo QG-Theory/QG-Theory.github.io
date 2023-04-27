@@ -28,11 +28,11 @@
 
   <header>
     <div class="top-nav-bar">
-      <img src="/images/ksu-logo2.png"></img>
+      <img class="KSUimage" src="/images/ksu-logo2.png"></img>
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="project.html">Project Plan</a></li>
-        <li><a href="demo.html">Demo Video</a></li>
+        <li><a href="demo.html">Presentation</a></li>
         <li><a href="report.html">Final Report</a></li>
         <li><a class="active" href="source.html">Source Code</a></li>
       </ul>
@@ -43,7 +43,8 @@
     <div class="allmain">
       <div class="homemain">
         <h1 style="text-align:center;">Source Code</h1>
-        <h3><small><i>Note: Google Collab was used in the making of this project.</i></small></h3>
+        <br>
+        <h3><small><i>Note: Google Colab was used in the making of this project.</i></small></h3>
         <br>
         <h2><a href="https://colab.research.google.com/drive/1A7XW5TYMHYxZfpSU4pVr7fw6J_8SArwc?usp=sharing">Coinflip</a></h2>
         <h2><a href="https://colab.research.google.com/drive/19pBhX0tgz6NJaMq4J4q4-E3UGc0-Fzqt?usp=sharing">Prisoner's Dilemma</a></h2>
@@ -53,17 +54,5 @@
         <h2><a href="https://colab.research.google.com/drive/1VSJfB0FeZHQ68Cn51Gg9f9suEp4Y6Ab9?usp=sharing">Monty Hall 2</a></h2>
       </div>
     </div>
-
-    <script>
-      window.onscroll = scrollShowNav;
-      function scrollShowNav() {
-         if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120)
-         {
-            document.getElementsByClassName("top-nav-bar")[0].style.padding = "0.1em";
-         } else {
-            document.getElementsByClassName("top-nav-bar")[0].style.padding = "0.3em";
-         }
-      }
-      </script>
   </body>
 </html>

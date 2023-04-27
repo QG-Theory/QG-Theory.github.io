@@ -28,11 +28,11 @@
 
   <header>
     <div class="top-nav-bar">
-      <img src="/images/ksu-logo2.png"></img>
+      <img class="KSUimage" src="/images/ksu-logo2.png"></img>
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="project.html">Project Plan</a></li>
-        <li><a class="active" href="demo.html">Demo Video</a></li>
+        <li><a class="active" href="demo.html">Presentation</a></li>
         <li><a href="report.html">Final Report</a></li>
         <li><a href="source.html">Source Code</a></li>
       </ul>
@@ -46,17 +46,5 @@
       </div>
       </div>
     </div>
-
-    <script>
-      window.onscroll = scrollShowNav;
-      function scrollShowNav() {
-         if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120)
-         {
-            document.getElementsByClassName("top-nav-bar")[0].style.padding = "0.1em";
-         } else {
-            document.getElementsByClassName("top-nav-bar")[0].style.padding = "0.3em";
-         }
-      }
-      </script>
   </body>
 </html>

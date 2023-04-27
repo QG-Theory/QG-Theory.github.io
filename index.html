@@ -48,11 +48,11 @@
 
   <header>
     <div class="top-nav-bar">
-      <img src="/images/ksu-logo2.png" alt="Kennesaw State University"></img>
+      <img class="KSUimage" src="/images/ksu-logo2.png" alt="Kennesaw State University"></img>
       <ul>
         <li><a class="active" href="/">Home</a></li>
         <li><a href="project.html">Project Plan</a></li>
-        <li><a href="demo.html">Demo Video</a></li>
+        <li><a href="demo.html">Presentation</a></li>
         <li><a href="report.html">Final Report</a></li>
         <li><a href="source.html">Source Code</a></li>
       </ul>
@@ -72,7 +72,7 @@
           <small><b>Quick Links (Drafts):</b><br></small>
           <div>
             <small><small><a href="/pdfs/projectplan.pdf#toolbar=0">Project Plan</a></small></small><br>
-            <small><small><a href="">Demo Video</a></small></small><br>
+            <small><small><a href="">Presentation</a></small></small><br>
             <small><small><a href="/pdfs/reportdraft.pdf#toolbar=0">Final Report</a></small></small><br>
             <small><small><a href="https://www.qgtheory.info/source.html">Source Code</a></small></small>
           </div>
@@ -100,17 +100,5 @@
       </div>
       </div>
     </div>
-
-    <script>
-      window.onscroll = scrollShowNav;
-      function scrollShowNav() {
-         if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120)
-         {
-            document.getElementsByClassName("top-nav-bar")[0].style.padding = "0.1em";
-         } else {
-            document.getElementsByClassName("top-nav-bar")[0].style.padding = "0.3em";
-         }
-      }
-    </script>
   </body>
 </html>

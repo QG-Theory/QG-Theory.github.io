@@ -102,6 +102,11 @@ header{
         width: 241px;
         height: 54px;
     }
+
+    .vid{
+        width: 320px;
+        height: 180px;
+    }
   }
 
 .bodyhome{
@@ -117,6 +122,11 @@ header{
     padding-top: 5%;
     padding-left: 10%;
     max-width: 100%;
+}
+
+.vid{
+    width: 920px; 
+    height: 517px;
 }
 
 .homemain{
